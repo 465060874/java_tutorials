@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:UpdateSailingSchedule xmlns="http://www.cargosmart.com/common" xmlns:ns2="http://www.cargosmart.com/updateSS">
+	<ns2:Header>
+		<MsgDT>
+			<GMT>2024-05-22T07:28:02</GMT>
+		</MsgDT>
+		<MsgDirection>I</MsgDirection>
+		<MsgType>SS</MsgType>
+		<SenderID>SSM</SenderID>
+		<ReceiverID>CARGOSMART</ReceiverID>
+		<Action>NEW</Action>
+		<Version>1.01</Version>
+		<InterchangeMessageID>2024052207280184500000</InterchangeMessageID>
+		<DataSource>SSM</DataSource>
+	</ns2:Header>
+	<ns2:Body>
+		<ns2:TransactionInformation>
+			<InterchangeTransactionID>TXN000000000000001</InterchangeTransactionID>
+			<ns2:SubscriptionID name="id">1022150496</ns2:SubscriptionID>
+			<ns2:SSMTransactionRefNo>CS2-1022150496-001</ns2:SSMTransactionRefNo>
+			<ns2:SubscriptionType>BerthDT</ns2:SubscriptionType>
+		</ns2:TransactionInformation>
+		<ns2:Event>
+			<EventCode>ss_update</EventCode>
+			<EventDT>
+				<GMT>2024-05-22T07:28:02</GMT>
+			</EventDT>
+		</ns2:Event>
+		<ns2:GeneralInformation>
+			<ns2:SCAC>OOLU</ns2:SCAC>
+		</ns2:GeneralInformation>
+		<ns2:ScheduleInformation>
+			<ns2:SVVD>
+				<Service>CSS2</Service>
+				<Vessel>BOO</Vessel>
+				<VesselName>GSL SUSAN</VesselName>
+				<Voyage>005</Voyage>
+				<Direction>S</Direction>
+			</ns2:SVVD>
+			<ns2:Port>
+				<LocationCode>
+					<UNLocationCode>MYPKG</UNLocationCode>
+				</LocationCode>
+			</ns2:Port>
+			<ns2:ScheduleDetails>
+				<ns2:CallNumber>1</ns2:CallNumber>
+				<ns2:Facility>
+					<FacilityCode>PKG05</FacilityCode>
+					<FacilityName>Westports Malaysia Sdn Bhd</FacilityName>
+				</ns2:Facility>
+				<ns2:ArrivalDT Indicator="A">
+					<LocDT>2021-01-03T01:48:00</LocDT>
+				</ns2:ArrivalDT>
+				<ns2:ArrivalDT Indicator="E">
+					<LocDT>2021-01-03T05:00:00</LocDT>
+				</ns2:ArrivalDT>
+				<ns2:DepartureDT Indicator="A">
+					<LocDT>2024-05-10T15:21:32</LocDT>
+				</ns2:DepartureDT>
+				<ns2:DepartureDT Indicator="E">
+					<LocDT>2021-01-03T23:00:00</LocDT>
+				</ns2:DepartureDT>
+			</ns2:ScheduleDetails>
+		</ns2:ScheduleInformation>
+	</ns2:Body>
+</ns2:UpdateSailingSchedule>

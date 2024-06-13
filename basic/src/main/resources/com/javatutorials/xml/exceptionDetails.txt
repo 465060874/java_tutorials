@@ -1,0 +1,116 @@
+"
+SessionID:przg7wcIedH_oC12iNCpoRsEUjKtcJejts6Ij6h6WKhE3yNtE3S7!-460886583!1717465712392
+
+Request information:
+  Request method:GET
+  Request URI:/party/errorhandler
+  Request protocol:HTTP/1.0
+  Servlet path:/errorhandler
+  Path info:null
+  Path translated:null
+  Query string:ANONYMOUS_BEHAVIOR=BUILD_UP&domainName=PARTY_DOMAIN&ENTRY_TYPE=APEX&ENTRY=MCC&PREFER_LANGUAGE=en-US
+  Content length:-1
+  Content type:null
+
+Request headers:
+  X-Real-IP:98.207.0.203
+  X-Forwarded-For:98.207.0.203
+  X-Forwarded-Proto:http
+  Host:www.cargosmart.com
+  Connection:close
+  sec-ch-ua:""Google Chrome"";v=""125"", ""Chromium"";v=""125"", ""Not.A/Brand"";v=""24""
+  sec-ch-ua-mobile:?0
+  sec-ch-ua-platform:""Windows""
+  Upgrade-Insecure-Requests:1
+  DNT:1
+  User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+  Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+  Sec-Fetch-Site:cross-site
+  Sec-Fetch-Mode:navigate
+  Sec-Fetch-Dest:iframe
+  Referer:https://kerryapex.com/
+  Accept-Encoding:gzip, deflate, br, zstd
+  Accept-Language:en,en-US;q=0.9
+  SRC_IP_URL:98.207.0.203 www.cargosmart.com
+
+Request attributes:
+  javax.servlet.forward.context_path:/party
+  javax.servlet.error.status_code:500
+  javax.servlet.forward.servlet_path:/sailingschedule/ss_apex_express_link.jsf
+  weblogic.servlet.network_channel.port:8001
+  javax.servlet.forward.request_uri:/party/sailingschedule/ss_apex_express_link.jsf
+  javax.servlet.error.servlet_name:Faces Servlet
+  javax.servlet.error.message:Out Of Service
+  weblogic.servlet.forward.target_servlet_path:/errorhandler
+  javax.servlet.forward.query_string:ANONYMOUS_BEHAVIOR=BUILD_UP&domainName=PARTY_DOMAIN&ENTRY_TYPE=APEX&ENTRY=MCC&PREFER_LANGUAGE=en-US
+  javax.servlet.error.exception_type:class com.oocl.frm.exceptionhandling.exception.OutOfServiceException
+  javax.servlet.error.request_uri:/party/sailingschedule/ss_apex_express_link.jsf
+  javax.servlet.jsp.jspException:com.oocl.frm.exceptionhandling.exception.OutOfServiceException: Out Of Service
+  javax.servlet.error.exception:com.oocl.frm.exceptionhandling.exception.OutOfServiceException: Out Of Service
+
+Session attributes:
+  ANONYMOUS_SESSION_CONTEXT:
+
+Cookies:
+
+Request parameters:
+  ParameterMap:{ENTRY_TYPE=[Ljava.lang.String;@1fe36818, PREFER_LANGUAGE=[Ljava.lang.String;@6f19c3e7, domainName=[Ljava.lang.String;@31dfa2ea, ENTRY=[Ljava.lang.String;@219ac3e5, ANONYMOUS_BEHAVIOR=[Ljava.lang.String;@253dcc66}
+    ENTRY_TYPE:APEX
+    PREFER_LANGUAGE:en-US
+    domainName:PARTY_DOMAIN
+    ENTRY:MCC
+    ANONYMOUS_BEHAVIOR:BUILD_UP
+
+com.oocl.frm.exceptionhandling.exception.SystemException: com.oocl.frm.exceptionhandling.exception.OutOfServiceException: Out Of Service
+	at com.oocl.frm.exceptionhandling.handler.war.DefaultWARExceptionHandler.handleThrowable(DefaultWARExceptionHandler.java:66)
+	at com.oocl.frm.exceptionhandling.handler.war.DefaultWARExceptionHandler.handle(DefaultWARExceptionHandler.java:35)
+	at com.cargosmart.exceptionhandling.handler.WarExceptionHandler.handle(WarExceptionHandler.java:45)
+	at com.oocl.frm.exceptionhandling.handler.war.ErrorHandlerServlet.service(ErrorHandlerServlet.java:90)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at weblogic.servlet.internal.StubSecurityHelper$ServletServiceAction.run(StubSecurityHelper.java:295)
+	at weblogic.servlet.internal.StubSecurityHelper$ServletServiceAction.run(StubSecurityHelper.java:260)
+	at weblogic.servlet.internal.StubSecurityHelper.invokeServlet(StubSecurityHelper.java:137)
+	at weblogic.servlet.internal.ServletStubImpl.execute(ServletStubImpl.java:353)
+	at weblogic.servlet.internal.ServletStubImpl.execute(ServletStubImpl.java:250)
+	at weblogic.servlet.internal.RequestDispatcherImpl.invokeServlet(RequestDispatcherImpl.java:636)
+	at weblogic.servlet.internal.RequestDispatcherImpl.forward(RequestDispatcherImpl.java:287)
+	at weblogic.servlet.internal.ForwardAction.run(ForwardAction.java:22)
+	at weblogic.security.acl.internal.AuthenticatedSubject.doAs(AuthenticatedSubject.java:344)
+	at weblogic.security.service.SecurityManager.runAsForUserCode(SecurityManager.java:197)
+	at weblogic.servlet.provider.WlsSecurityProvider.runAsForUserCode(WlsSecurityProvider.java:203)
+	at weblogic.servlet.provider.WlsSubjectHandle.run(WlsSubjectHandle.java:71)
+	at weblogic.servlet.internal.ErrorManager.handleException(ErrorManager.java:161)
+	at weblogic.servlet.internal.WebAppServletContext.handleThrowableFromInvocation(WebAppServletContext.java:2544)
+	at weblogic.servlet.internal.WebAppServletContext.execute(WebAppServletContext.java:2294)
+	at weblogic.servlet.internal.ServletRequestImpl.runInternal(ServletRequestImpl.java:1739)
+	at weblogic.servlet.internal.ServletRequestImpl.run(ServletRequestImpl.java:1699)
+	at weblogic.servlet.provider.ContainerSupportProviderImpl$WlsRequestExecutor.run(ContainerSupportProviderImpl.java:272)
+	at weblogic.invocation.ComponentInvocationContextManager._runAs(ComponentInvocationContextManager.java:352)
+	at weblogic.invocation.ComponentInvocationContextManager.runAs(ComponentInvocationContextManager.java:337)
+	at weblogic.work.LivePartitionUtility.doRunWorkUnderContext(LivePartitionUtility.java:57)
+	at weblogic.work.PartitionUtility.runWorkUnderContext(PartitionUtility.java:41)
+	at weblogic.work.SelfTuningWorkManagerImpl.runWorkUnderContext(SelfTuningWorkManagerImpl.java:655)
+	at weblogic.work.ExecuteThread.execute(ExecuteThread.java:420)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:360)
+Caused by: com.oocl.frm.exceptionhandling.exception.OutOfServiceException: Out Of Service
+	at com.cargosmart.common.service.CargosmartEntryTypeServiceImpl.solveEntryType(CargosmartEntryTypeServiceImpl.java:52)
+	at com.cargosmart.webapp.AnonymousHelper.interpretAnonymousBehaviour(AnonymousHelper.java:102)
+	at com.cargosmart.webapp.filter.CargoSmartFilter.doFilter(CargoSmartFilter.java:68)
+	at weblogic.servlet.internal.FilterChainImpl.doFilter(FilterChainImpl.java:78)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at weblogic.servlet.internal.FilterChainImpl.doFilter(FilterChainImpl.java:78)
+	at com.cargosmart.webapp.filter.ClientAddressHoldFilter.doFilterInternal(ClientAddressHoldFilter.java:20)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at weblogic.servlet.internal.FilterChainImpl.doFilter(FilterChainImpl.java:78)
+	at weblogic.servlet.internal.WebAppServletContext$ServletInvocationAction.wrapRun(WebAppServletContext.java:3800)
+	at weblogic.servlet.internal.WebAppServletContext$ServletInvocationAction.run(WebAppServletContext.java:3766)
+	at weblogic.security.acl.internal.AuthenticatedSubject.doAs(AuthenticatedSubject.java:344)
+	at weblogic.security.service.SecurityManager.runAsForUserCode(SecurityManager.java:197)
+	at weblogic.servlet.provider.WlsSecurityProvider.runAsForUserCode(WlsSecurityProvider.java:203)
+	at weblogic.servlet.provider.WlsSubjectHandle.run(WlsSubjectHandle.java:71)
+	at weblogic.servlet.internal.WebAppServletContext.doSecuredExecute(WebAppServletContext.java:2454)
+	at weblogic.servlet.internal.WebAppServletContext.securedExecute(WebAppServletContext.java:2302)
+	at weblogic.servlet.internal.WebAppServletContext.execute(WebAppServletContext.java:2280)
+	... 10 more
+"
